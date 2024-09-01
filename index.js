@@ -18,10 +18,10 @@ app.use(express.urlencoded({ extended: true })); /* bodyParser.urlencoded() is d
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to MERN application." });
 });
 
-require("./app/routes/userRoute.js")(app);
+require("./routes/userRoute.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
