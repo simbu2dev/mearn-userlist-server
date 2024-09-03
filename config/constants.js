@@ -1,4 +1,9 @@
 module.exports = {
+    STATUS_CODES: {
+        OK: 200,
+        CREATED: 201,
+        NO_CONTENT: 204
+    },
     ERROR_CODES: {
         BAD_REQUEST: 400,
         UNAUTHORIZED: 401,
